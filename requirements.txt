@@ -1,27 +1,13 @@
-# Core Dependencies
-torch
-torchvision
-torchaudio
-ffmpeg-python
-
-# Speech Recognition
 faster-whisper
-
-# Machine Translation
-transformers
-sentencepiece
-protobuf
-
-# Voice Cloning & TTS 
-# Note: TTS requires specific build tools in some environments
+torchaudio
+onnxruntime==1.20.1
+onnx==1.20.1
 TTS
-
-# Lip Sync Utility (Standard requirements for common implementations)
-# Note: Many lip-sync tools (Wav2Lip/VideoReTalking) require cloning their repos.
-# These libraries support the runner script's logic.
-numpy
-opencv-python
-tqdm
-resampy
-python-utils
+deep-translator
 librosa
+soundfile
+pydub
+ffmpeg-python
+moviepy
+numpy
+torch
