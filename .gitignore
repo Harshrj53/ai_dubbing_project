@@ -1,16 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
 venv/
-.env
-
-# Project specific
-temp_*.mp4
-temp_*.wav
-output_*.mp4
-Wav2Lip/
-checkpoints/
-
-# System
+__pycache__/
+*.mp4
+*.wav
+temp_processing/
 .DS_Store
+video-retalking/
