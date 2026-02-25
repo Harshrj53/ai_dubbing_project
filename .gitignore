@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+temp_*.mp4
+temp_*.wav
+output_*.mp4
+Wav2Lip/
+checkpoints/
+
+# System
+.DS_Store
